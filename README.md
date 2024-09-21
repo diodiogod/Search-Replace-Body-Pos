@@ -1,8 +1,12 @@
 # Search-Replace-Body-Pos
 This is to help fix txt. file captions made with auto captioners that uses a lot of the own subject body position, that can be tricky for inference and training with models like Flux.
 
-Very simple use:
+## Getting started
+* cd into this directory after cloning the repo
+* start the app
+```
 py SR.py
+```
 
 It will ask for the input folder (will scan on the subfolders as well) on the cmd/powershell command. Press enter.
 It will output a report.
